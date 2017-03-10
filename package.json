@@ -1,0 +1,23 @@
+{
+  "name": "acacha-forms",
+  "version": "0.1.0",
+  "description": "Form Objects pattern implementation for Javascript",
+  "main": "src/acacha.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acacha/forms.git"
+  },
+  "keywords": [
+    "Form",
+    "Javascript"
+  ],
+  "author": "Sergi Tur Badenas <sergiturbadenas@gmail.com> (http://acacha.org)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acacha/forms/issues"
+  },
+  "homepage": "https://github.com/acacha/forms#readme"
+}
