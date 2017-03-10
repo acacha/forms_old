@@ -46,7 +46,7 @@ module.exports = class {
      * Start processing the form.
      *
      */
-    startProcessing = function () {
+    startProcessing() {
         this.errors.forget();
         this.submitting = true;
         this.succeeded = false;
@@ -56,7 +56,7 @@ module.exports = class {
      * Finish processing the form.
      *
      */
-    finishProcessing = function () {
+    finishProcessing() {
         this.submitting = false;
         this.submitted  = false;
         this.succeeded  = true;
@@ -66,7 +66,7 @@ module.exports = class {
      * Finish processing the form on Errors.
      *
      */
-    finishProcessingOnErrors = function () {
+    finishProcessingOnErrors() {
         this.submitting = false;
         this.submitted  = false;
         this.succeeded = false;
